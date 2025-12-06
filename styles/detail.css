@@ -3,7 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 body {
     background: linear-gradient(135deg, #1a0b2e 0%, #2d1b4e 50%, #3d2963 100%);
     font-family: 'Arial', sans-serif;
@@ -121,6 +126,10 @@ body {
     font-weight: 300;
 }
 
+.arr i {
+    font-size: 32px;
+}
+
 .rel {
     color: #ffc107;
     font-size: 16px;
@@ -188,6 +197,10 @@ body {
 
 .str {
     color: #ffc107;
+    font-size: 18px;
+}
+
+.str i {
     font-size: 18px;
 }
 
